@@ -1,0 +1,2 @@
+com\alertsystem\gateway\ApiGatewayApplication.class
+com\alertsystem\gateway\filter\JwtAuthGatewayFilter.class

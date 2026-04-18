@@ -1,0 +1,24 @@
+server:
+  port: ${SERVER_PORT:8083}
+
+spring:
+  application:
+    name: tsdb-storage
+
+  kafka:
+    bootstrap-servers: ${SPRING_KAFKA_BOOTSTRAP_SERVERS:localhost:9093}
+    consumer:
+      group-id: tsdb-storage
+      auto-offset-reset: latest
+
+influxdb:
+  url: ${INFLUXDB_URL:http://localhost:8087}
+  token: ${INFLUXDB_TOKEN:my-super-secret-token}
+  org: ${INFLUXDB_ORG:alertsystem}
+  bucket: ${INFLUXDB_BUCKET:metrics}
+  batch-size: 500
+  flush-interval-ms: 1000
+
+logging:
+  level:
+    com.alertsystem: DEBUG

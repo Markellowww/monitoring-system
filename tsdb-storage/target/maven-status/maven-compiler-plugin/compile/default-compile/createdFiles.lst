@@ -1,0 +1,6 @@
+com\alertsystem\tsdb\service\InfluxDbService.class
+com\alertsystem\tsdb\config\InfluxDbConfig.class
+com\alertsystem\tsdb\controller\StorageController.class
+com\alertsystem\tsdb\TsdbStorageApplication.class
+com\alertsystem\tsdb\config\KafkaConfig.class
+com\alertsystem\tsdb\kafka\MetricsConsumer.class

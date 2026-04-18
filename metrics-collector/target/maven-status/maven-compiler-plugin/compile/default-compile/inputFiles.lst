@@ -1,0 +1,9 @@
+C:\Users\Markellowww\Desktop\alert_system\metrics-collector\src\main\java\com\alertsystem\metrics\config\KafkaConfig.java
+C:\Users\Markellowww\Desktop\alert_system\metrics-collector\src\main\java\com\alertsystem\metrics\controller\MetricsPushController.java
+C:\Users\Markellowww\Desktop\alert_system\metrics-collector\src\main\java\com\alertsystem\metrics\kafka\ConfigUpdatedConsumer.java
+C:\Users\Markellowww\Desktop\alert_system\metrics-collector\src\main\java\com\alertsystem\metrics\kafka\MetricsProducer.java
+C:\Users\Markellowww\Desktop\alert_system\metrics-collector\src\main\java\com\alertsystem\metrics\MetricsCollectorApplication.java
+C:\Users\Markellowww\Desktop\alert_system\metrics-collector\src\main\java\com\alertsystem\metrics\model\DataSourceConfig.java
+C:\Users\Markellowww\Desktop\alert_system\metrics-collector\src\main\java\com\alertsystem\metrics\service\ConfigSyncService.java
+C:\Users\Markellowww\Desktop\alert_system\metrics-collector\src\main\java\com\alertsystem\metrics\service\PrometheusParser.java
+C:\Users\Markellowww\Desktop\alert_system\metrics-collector\src\main\java\com\alertsystem\metrics\service\ScrapingService.java

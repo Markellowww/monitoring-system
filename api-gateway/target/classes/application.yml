@@ -1,0 +1,66 @@
+server:
+  port: ${SERVER_GATEWAY_PORT:8080}
+
+spring:
+  application:
+    name: api-gateway
+
+  cloud:
+    gateway:
+      routes:
+        - id: auth-public
+          uri: ${CONFIG_MANAGER_URL:http://localhost:8081}
+          predicates:
+            - Path=/api/auth/**
+          filters:
+            - StripPrefix=0
+
+        - id: config-manager
+          uri: ${CONFIG_MANAGER_URL:http://localhost:8081}
+          predicates:
+            - Path=/api/config/**
+          filters:
+            - StripPrefix=0
+
+        - id: metrics-collector
+          uri: ${METRICS_COLLECTOR_URL:http://localhost:8082}
+          predicates:
+            - Path=/api/metrics/**
+          filters:
+            - StripPrefix=0
+
+        - id: tsdb-storage
+          uri: ${TSDB_STORAGE_URL:http://localhost:8083}
+          predicates:
+            - Path=/api/storage/**
+          filters:
+            - StripPrefix=0
+
+        - id: analytics-alerting
+          uri: ${ANALYTICS_ALERTING_URL:http://localhost:8084}
+          predicates:
+            - Path=/api/alerts/**
+          filters:
+            - StripPrefix=0
+
+        - id: visual-reports
+          uri: ${VISUAL_REPORTS_URL:http://localhost:8085}
+          predicates:
+            - Path=/api/reports/**
+          filters:
+            - StripPrefix=0
+
+        - id: online-notifier
+          uri: ${ONLINE_NOTIFIER_URL:http://localhost:8086}
+          predicates:
+            - Path=/api/notify/**
+          filters:
+            - StripPrefix=0
+
+jwt:
+  secret: ${JWT_GATEWAY_SECRET:change-this-secret-key-in-production-min-256-bits}
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    com.alertsystem: DEBUG

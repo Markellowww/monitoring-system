@@ -1,0 +1,38 @@
+server:
+  port: ${SERVER_ANALYTICS_PORT:8084}
+
+spring:
+  application:
+    name: analytics-alerting
+
+  datasource:
+    url: ${SPRING_ANALYTICS_DATASOURCE_URL:jdbc:postgresql://localhost:5432/alerting_db}
+    username: ${SPRING_ANALYTICS_DATASOURCE_USERNAME:alert}
+    password: ${SPRING_ANALYTICS_DATASOURCE_PASSWORD:alert_pass}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+
+  kafka:
+    bootstrap-servers: ${SPRING_KAFKA_BOOTSTRAP_SERVERS:localhost:9093}
+
+config-manager:
+  url: ${CONFIG_MANAGER_URL:http://localhost:8081}
+
+tsdb-storage:
+  url: ${TSDB_STORAGE_URL:http://localhost:8083}
+
+alerting:
+  evaluation-interval-sec: 30
+  dedup-window-sec: 600
+
+logging:
+  level:
+    com.alertsystem: DEBUG

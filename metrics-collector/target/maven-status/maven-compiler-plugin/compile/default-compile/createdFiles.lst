@@ -1,0 +1,11 @@
+com\alertsystem\metrics\model\DataSourceConfig.class
+com\alertsystem\metrics\controller\MetricsPushController.class
+com\alertsystem\metrics\kafka\MetricsProducer.class
+com\alertsystem\metrics\service\ConfigSyncService.class
+com\alertsystem\metrics\service\PrometheusParser.class
+com\alertsystem\metrics\MetricsCollectorApplication.class
+com\alertsystem\metrics\config\KafkaConfig.class
+com\alertsystem\metrics\kafka\ConfigUpdatedConsumer$1.class
+com\alertsystem\metrics\kafka\ConfigUpdatedConsumer.class
+com\alertsystem\metrics\service\ConfigSyncService$1.class
+com\alertsystem\metrics\service\ScrapingService.class

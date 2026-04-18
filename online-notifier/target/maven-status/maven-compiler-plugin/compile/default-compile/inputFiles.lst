@@ -1,0 +1,8 @@
+C:\Users\Markellowww\Desktop\alert_system\online-notifier\src\main\java\com\alertsystem\notifier\config\KafkaConfig.java
+C:\Users\Markellowww\Desktop\alert_system\online-notifier\src\main\java\com\alertsystem\notifier\entity\NotificationLog.java
+C:\Users\Markellowww\Desktop\alert_system\online-notifier\src\main\java\com\alertsystem\notifier\kafka\AlertConsumer.java
+C:\Users\Markellowww\Desktop\alert_system\online-notifier\src\main\java\com\alertsystem\notifier\OnlineNotifierApplication.java
+C:\Users\Markellowww\Desktop\alert_system\online-notifier\src\main\java\com\alertsystem\notifier\repository\NotificationLogRepository.java
+C:\Users\Markellowww\Desktop\alert_system\online-notifier\src\main\java\com\alertsystem\notifier\service\EmailSender.java
+C:\Users\Markellowww\Desktop\alert_system\online-notifier\src\main\java\com\alertsystem\notifier\service\NotificationService.java
+C:\Users\Markellowww\Desktop\alert_system\online-notifier\src\main\java\com\alertsystem\notifier\service\TelegramSender.java

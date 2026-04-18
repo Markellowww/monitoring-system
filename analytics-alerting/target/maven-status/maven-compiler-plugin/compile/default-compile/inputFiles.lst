@@ -1,0 +1,14 @@
+C:\Users\Markellowww\Desktop\alert_system\analytics-alerting\src\main\java\com\alertsystem\analytics\AnalyticsAlertingApplication.java
+C:\Users\Markellowww\Desktop\alert_system\analytics-alerting\src\main\java\com\alertsystem\analytics\config\AppConfig.java
+C:\Users\Markellowww\Desktop\alert_system\analytics-alerting\src\main\java\com\alertsystem\analytics\config\KafkaConfig.java
+C:\Users\Markellowww\Desktop\alert_system\analytics-alerting\src\main\java\com\alertsystem\analytics\controller\AlertsController.java
+C:\Users\Markellowww\Desktop\alert_system\analytics-alerting\src\main\java\com\alertsystem\analytics\entity\ActiveAlert.java
+C:\Users\Markellowww\Desktop\alert_system\analytics-alerting\src\main\java\com\alertsystem\analytics\entity\AlertHistory.java
+C:\Users\Markellowww\Desktop\alert_system\analytics-alerting\src\main\java\com\alertsystem\analytics\kafka\AlertProducer.java
+C:\Users\Markellowww\Desktop\alert_system\analytics-alerting\src\main\java\com\alertsystem\analytics\kafka\ConfigUpdatedConsumer.java
+C:\Users\Markellowww\Desktop\alert_system\analytics-alerting\src\main\java\com\alertsystem\analytics\model\AlertRuleConfig.java
+C:\Users\Markellowww\Desktop\alert_system\analytics-alerting\src\main\java\com\alertsystem\analytics\repository\ActiveAlertRepository.java
+C:\Users\Markellowww\Desktop\alert_system\analytics-alerting\src\main\java\com\alertsystem\analytics\repository\AlertHistoryRepository.java
+C:\Users\Markellowww\Desktop\alert_system\analytics-alerting\src\main\java\com\alertsystem\analytics\service\AlertingEngine.java
+C:\Users\Markellowww\Desktop\alert_system\analytics-alerting\src\main\java\com\alertsystem\analytics\service\ConfigSyncService.java
+C:\Users\Markellowww\Desktop\alert_system\analytics-alerting\src\main\java\com\alertsystem\analytics\service\RuleEvaluator.java

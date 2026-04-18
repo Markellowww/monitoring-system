@@ -1,0 +1,12 @@
+com\alertsystem\notifier\config\KafkaConfig.class
+com\alertsystem\notifier\entity\NotificationLog.class
+com\alertsystem\notifier\service\TelegramSender.class
+com\alertsystem\notifier\kafka\AlertConsumer.class
+com\alertsystem\notifier\repository\NotificationLogRepository.class
+com\alertsystem\notifier\OnlineNotifierApplication.class
+com\alertsystem\notifier\service\NotificationService$1.class
+com\alertsystem\notifier\service\EmailSender.class
+com\alertsystem\notifier\entity\NotificationLog$ChannelType.class
+com\alertsystem\notifier\entity\NotificationLog$Status.class
+com\alertsystem\notifier\service\NotificationService.class
+com\alertsystem\notifier\entity\NotificationLog$NotificationLogBuilder.class

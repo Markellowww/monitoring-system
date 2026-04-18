@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/analytics-alerting/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/analytics-alerting/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-manager/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/metrics-collector/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/metrics-collector/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-notifier/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-notifier/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tsdb-storage/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tsdb-storage/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/visual-reports/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/visual-reports/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
